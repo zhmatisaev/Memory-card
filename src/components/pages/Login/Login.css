@@ -1,0 +1,64 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://ecdn.teacherspayteachers.com/thumbitem/Free-Memory-Card-Template-1428471727/original-363702-2.jpg");
+  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAeFgWHAYphInS0KFs7f1JqY5rlPEXJDA_Q&usqp=CAU"); */
+  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRX5pFTc20WZAR0Dl-xahTEd-sCkiV7w6rDQ&usqp=CAU"); */
+  /* ("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); */
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 50px;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: rgb(209, 224, 224);
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}

@@ -1,0 +1,11 @@
+.home {
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+  padding-right: 40px;
+  padding-top: 30px;
+  background: rgb(64, 85, 155);
+}
+.lgn {
+  padding-right: 30px;
+}
