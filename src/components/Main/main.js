@@ -5,6 +5,10 @@ import Header from "../Header/index";
 import { Col, Container, Row } from "react-bootstrap";
 import Card from "../Card/index";
 import Finish from "../Finish/index";
+// import { Button } from "antd";
+import { routes } from "../../routes";
+import { Link } from "react-router-dom";
+// import Footer from "../../components/Footer/index";
 // import { Link, useHistory } from "react-router-dom";
 // import { Button } from "antd";
 // import { routes } from "../../routes";
@@ -114,15 +118,6 @@ const Main = () => {
 
   return (
     <div>
-      {/* <div>
-        <Link to={routes.login}>
-          <Button type="text">Log in</Button>
-        </Link>
-        <Link to={routes.sign_up}>
-          <Button>Sign up</Button>
-        </Link>
-      </div> */}
-
       <Header
         moves={moves}
         bestScore={bestScore}
@@ -153,6 +148,13 @@ const Main = () => {
         bestScore={bestScore}
         handleRestart={handleRestart}
       />
+      <div>
+        <button className="registerLoginButton">
+          <Link className="Link" to="/home">
+            Home
+          </Link>
+        </button>
+      </div>
     </div>
   );
 };

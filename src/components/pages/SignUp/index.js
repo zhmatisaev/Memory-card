@@ -180,7 +180,7 @@ const SignUp = () => {
   useEffect(() => {
     if (values.email.trim() && values.name.trim() && values.password.trim()) {
       localStorage.setItem("users", JSON.stringify(state));
-      history.push("./home");
+      history.push("./main");
     }
   }, [state]);
 
@@ -211,6 +211,9 @@ const SignUp = () => {
   };
   return (
     <div className="register">
+      <div>
+        <h3>Memory Game</h3>
+      </div>
       <span className="registerTitle">Register</span>
       <form className="registerForm">
         {/* name */}
@@ -258,6 +261,10 @@ const SignUp = () => {
           Home
         </Link>
       </button>
+
+      {/* <div className="signUpImg">
+        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Free-Memory-Card-Template-1428471727/original-363702-2.jpg" />
+      </div> */}
       {/* <button>
         <Link className="registerLoginButton" to="/home">
           Home

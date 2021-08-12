@@ -1,9 +1,17 @@
 .register {
-  height: calc(100vh - 30px);
+  /* margin-top: 20px; */
+  /* margin: 60px 60px 60px 350px; */
+  border-radius: solid black;
+  list-style: none;
+  /* width: 800px;
+  height: 600px; */
+  height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* text-align: center; */
   justify-content: center;
+  /* background: rgb(133, 192, 174); */
   background: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
@@ -41,7 +49,7 @@
 }
 
 .registerButton {
-  margin-top: 20px;
+  margin-top: 10px;
   cursor: pointer;
   background-color: teal;
   color: white;
@@ -49,16 +57,34 @@
   border: none;
   border-radius: 10px;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .registerLoginButton {
   position: absolute;
-  top: 60px;
+  top: 20px;
   right: 20px;
   background-color: lightcoral;
   cursor: pointer;
   padding: 10px;
   border: none;
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
+
+.Link {
+  font-family: "Times New Roman", Times, serif;
+}
+/* 
+.signUpImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  margin: 0 0 50px 1200px;
+}
+.signUpImg img {
+  width: 500px;
+  height: 500px;
+} */

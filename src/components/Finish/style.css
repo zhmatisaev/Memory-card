@@ -19,7 +19,7 @@ h2 {
 }
 .MuiTypography-h6 {
   font-size: 25px !important;
-  color: orangered !important;
+  color: rgb(112, 176, 201) !important;
   font-weight: 500;
 }
 .MuiDialogActions-root {

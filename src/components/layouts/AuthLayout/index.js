@@ -1,6 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import Header from "../../Header/index";
+// import Header from "../../Header/index";
 
 export const AuthLayout = ({ component: Component }) => {
   return (

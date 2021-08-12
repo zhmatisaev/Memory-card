@@ -17,7 +17,7 @@ const Login = () => {
   const history = useHistory();
 
   if (success) {
-    history.push("/home");
+    history.push("./main");
   }
   return (
     <div className="login">
@@ -53,6 +53,11 @@ const Login = () => {
           home
         </Link>
       </button>
+      {/* <button className="registerLoginButton">
+        <Link className="Link" to="/main">
+          login
+        </Link>
+      </button> */}
     </div>
   );
 };

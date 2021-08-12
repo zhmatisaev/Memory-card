@@ -3,9 +3,12 @@
   text-align: center;
 }
 
-body {
+/* body {
   background: radial-gradient(rgb(253 126 20 / 70%), rgb(55, 115, 119));
   min-height: 100vh;
+} */
+body {
+  background: rgb(105, 121, 143);
 }
 
 /* code {

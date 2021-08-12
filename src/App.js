@@ -179,6 +179,8 @@
 import SignUp from "../src/components/pages/SignUp/index";
 import Home from "./components/pages/Home/Home.js";
 import Login from "../src/components/pages/Login/index";
+import Main from "./components/Main/main.js";
+
 import { AuthLayout } from "./components/layouts/AuthLayout/index";
 import { MainLayout } from "./components/layouts/MainLayout/index";
 
@@ -186,6 +188,7 @@ import { routes } from "./routes";
 import { BrowserRouter, Switch } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
+// import { HomeLayout } from "./components/layouts/HomeLayout";
 // import Main from "./components/Main/main";
 // import Header from "./components/Header/index";
 const App = () => {
@@ -202,14 +205,17 @@ const App = () => {
   }, [currentUser]);
   return (
     <div>
-      {/* <Header /> */}
-
       <BrowserRouter>
         <Switch>
+          {/* <Home /> */}
+
           <AuthLayout path={routes.login} component={Login} />
           <AuthLayout path={routes.sign_up} component={SignUp} />
+          <AuthLayout path={routes.main} component={Main} />
+
           {/* <ProfileLayout path={routes.user_profile} component={UserProfile} /> */}
           <MainLayout path={routes.home} component={Home} />
+          {/* <HomeLayout path={routes.main} component={Main} /> */}
         </Switch>
       </BrowserRouter>
 
