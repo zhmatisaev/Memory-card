@@ -34,20 +34,12 @@ import "./style.css";
 
 import { Container } from "react-bootstrap";
 import { FaRedo } from "react-icons/fa";
-// import { routes } from "../../routes";
-// import { Link } from "react-router-dom";
 
 const Header = ({ moves, bestScore, handleRestart }) => {
   return (
     <div className="header">
       <div>
         <h1>Memory Game</h1>
-        {/* <Link to={routes.login}>
-          <Button type="text">Log in</Button>
-        </Link>
-        <Link to={routes.sign_up}>
-          <Button>Sign up</Button>
-        </Link> */}
       </div>
 
       <Container>
@@ -69,7 +61,6 @@ const Header = ({ moves, bestScore, handleRestart }) => {
           )}
         </div>
       </Container>
-      {/* {/* <div>Sign Up</div> */}
     </div>
   );
 };

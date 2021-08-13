@@ -1,27 +1,6 @@
-// import React from "react";
-// import "./style.css";
-// import backpic from "../../image/backpic.jpg";
-// import frontpic from "../../image/b1.jpg";
-// // import classnames from "classnames";
-// const Card = () => {
-//   return (
-//     <div className="card">
-//       <div className="card-face card-font-face">
-//         <img src={backpic} alt="bacpic" className="img" />
-//       </div>
-//       <div className="card-face card-back-face">
-//         <img src={frontpic} alt="frontpic" className="img" />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Card;
-
 import React from "react";
 import "./style.css";
 import backpic from "../../image/backpic.jpg";
-// import frontpic from "../../image/bird1.jpg";
 import classnames from "classnames";
 
 const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {

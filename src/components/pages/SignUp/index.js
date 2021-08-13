@@ -212,7 +212,7 @@ const SignUp = () => {
   return (
     <div className="register">
       <div>
-        <h3>Memory Game</h3>
+        {/* <h3>Memory Game</h3> */}
       </div>
       <span className="registerTitle">Register</span>
       <form className="registerForm">

@@ -1,17 +1,13 @@
 import React from "react";
-// import Main from "../../Main/main";
-// import SignUp from "../SignUp";
 import "./Home.css";
 import { Button } from "antd";
 import { routes } from "../../../routes.js";
 import { Link } from "react-router-dom";
-import Footer from "../../Footer/index";
-import SignUp from "../SignUp";
 const Home = () => {
   return (
     <>
       <div className="home">
-        <div className="MEMORY">MEMORY GAME</div>
+        <div className="memory">MEMORY GAME</div>
 
         <div>
           <Link className="lgn" to={routes.home}>
@@ -20,16 +16,16 @@ const Home = () => {
           <Link className="lgn" to={routes.login}>
             <Button type="text">Log in</Button>
           </Link>
-          <Link to={routes.sign_up}>
+          <Link className="lgn" to={routes.sign_up}>
             <Button>Sign up</Button>
           </Link>
         </div>
       </div>
 
       <div className="container">
-        <h3>Добро пожаловать!!! </h3>
+        <h3>Welcome!!! </h3>
         <p>
-          Для перехода игры сначала необходима зарегистрироваться >>>
+          To go to the game, you first need to register --->
           <Link className="lgnn" to={routes.sign_up}>
             <span type="text"> Sign Up</span>
           </Link>
@@ -41,9 +37,7 @@ const Home = () => {
               src="https://i.ytimg.com/vi/o5zxnhMurxo/maxresdefault.jpg"
             />
             <div />
-            <div>
-              {/* <img src="https://cdn1.vectorstock.com/i/1000x1000/69/55/memory-card-game-with-cartoon-dogs-different-vector-20966955.jpg" /> */}
-            </div>
+            <div></div>
           </div>
         </div>
       </div>

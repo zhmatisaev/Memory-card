@@ -1,25 +1,32 @@
 .container {
-  width: 900px;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1000; */
+
+  width: 700px;
 }
 .home {
-  margin: auto;
+  margin: auto 0;
+  padding: 0 auto;
   display: flex;
   justify-content: space-between;
   height: 100px;
   align-items: center;
   padding-right: 60px;
-  /* padding-top: 30px;  */
-  background: rgb(136, 149, 192);
+  background: rgb(121, 202, 216);
 }
-.MEMORY {
-  color: blue;
+.memory {
+  color: rgb(255, 255, 255);
   font-style: italic;
   font-size: 28px;
   padding-left: 120px;
   align-items: center;
 }
 .container h3 {
-  /* padding-left: 250px; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -29,7 +36,6 @@
   font-size: 28px;
 }
 .container p {
-  /* padding-left: 250px; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -42,17 +48,27 @@
   padding-right: 30px;
 }
 .bg_home {
-  /* padding-top: 200px; */
   text-align: center;
-  /* padding-left: 150px; */
-  background: rgb(88, 202, 177);
+  background: rgb(90, 141, 128);
 }
 .homeImg {
-  /* margin: 20px 0 0 150px; */
   padding: 20px 0 20px 0;
-  width: 850px;
-  height: 500px;
-  /* background-repeat: no-repeat; */
+  width: 60%;
+  height: 50%;
+}
 
-  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKioClLwOfRTHjiPo8wdG8BKZj-KjoInbDdQ&usqp=CAU"); */
+@media screen and(max-width: 800px) {
+  .homeImg {
+    width: 30%;
+    height: 25%;
+  }
+  .memory {
+    color: rgb(228, 27, 27);
+    font-style: italic;
+    font-size: 16px;
+    align-items: center;
+  }
+  .lgn {
+    font-size: 16px;
+  }
 }

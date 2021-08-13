@@ -1,25 +1,21 @@
 .login {
-  height: calc(100vh - 50px);
+  height: calc(105vh - 50px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("https://ecdn.teacherspayteachers.com/thumbitem/Free-Memory-Card-Template-1428471727/original-363702-2.jpg");
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAeFgWHAYphInS0KFs7f1JqY5rlPEXJDA_Q&usqp=CAU"); */
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRX5pFTc20WZAR0Dl-xahTEd-sCkiV7w6rDQ&usqp=CAU"); */
-  /* ("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); */
+  background: linear-gradient(rgba(31, 29, 29, 0.5), rgba(119, 112, 112, 0.5)),
+    url("https://im0-tub-ru.yandex.net/i?id=e11bf08de7503a9230fd8b0d8bd286d7-l&n=13");
   background-size: cover;
 }
 
 .loginTitle {
   font-size: 50px;
+  color: aliceblue;
 }
 
 .loginForm {
+  color: aliceblue;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -64,4 +60,5 @@
 }
 .Link {
   font-family: "Times New Roman", Times, serif;
+  list-style: none;
 }

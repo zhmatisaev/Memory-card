@@ -1,12 +1,3 @@
-// import React from "react";
-// import "./style.css";
-
-// const Finish = () => {
-//   return <div>Finish</div>;
-// };
-
-// export default Finish;
-
 import React from "react";
 import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";

@@ -8,10 +8,6 @@ import Finish from "../Finish/index";
 // import { Button } from "antd";
 import { routes } from "../../routes";
 import { Link } from "react-router-dom";
-// import Footer from "../../components/Footer/index";
-// import { Link, useHistory } from "react-router-dom";
-// import { Button } from "antd";
-// import { routes } from "../../routes";
 
 // FisherYates Modern Shuffle Algorithm
 function swap(array, i, j) {
@@ -92,13 +88,10 @@ const Main = () => {
     return () => {
       clearTimeout(timeout);
     };
-    // eslint-disable-next-line
   }, [openCards]);
 
   useEffect(() => {
-    // eslint-disable-next-line
     checkCompletion();
-    // eslint-disable-next-line
   }, [matchedCards]);
 
   const checkIsFlipped = (index) => {

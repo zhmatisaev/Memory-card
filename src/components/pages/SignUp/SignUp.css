@@ -1,25 +1,17 @@
 .register {
-  /* margin-top: 20px; */
-  /* margin: 60px 60px 60px 350px; */
   border-radius: solid black;
   list-style: none;
-  /* width: 800px;
-  height: 600px; */
-  height: calc(100vh - 100px);
+
+  height: calc(110vh - 100px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* text-align: center; */
   justify-content: center;
-  /* background: rgb(133, 192, 174); */
   background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(214, 179, 179, 0.5),
+      rgba(184, 142, 142, 0.5)
     ),
-    url("https://ecdn.teacherspayteachers.com/thumbitem/Free-Memory-Card-Template-1428471727/original-363702-2.jpg");
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAeFgWHAYphInS0KFs7f1JqY5rlPEXJDA_Q&usqp=CAU"); */
-  /* ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Fi_5RmzMY-7_zxGtyaoDKEnaHs1HxIljqw&usqp=CAU"); */
-  /* ("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+    url("../../../image/XSRl.gif");
   background-size: cover;
 }
 
@@ -52,7 +44,7 @@
   margin-top: 10px;
   cursor: pointer;
   background-color: teal;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px;
   border: none;
   border-radius: 10px;
@@ -76,15 +68,3 @@
 .Link {
   font-family: "Times New Roman", Times, serif;
 }
-/* 
-.signUpImg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: right;
-  margin: 0 0 50px 1200px;
-}
-.signUpImg img {
-  width: 500px;
-  height: 500px;
-} */
